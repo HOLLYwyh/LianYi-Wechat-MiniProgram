@@ -5,9 +5,11 @@
 
 ​		此项目是同济大学 “涟漪·家园留声机”社会实践007组实践成果的一部分。采用微信小程序，通过让用户答题的形式让更多用户了解兰州方言，了解兰州的黄河文化。
 
-​		每次答题需要完成十道单选题，题目内容与兰州方言，兰州黄河，兰州人的生活有关。
+![首页](https://github.com/HOLLYwyh/LianYi-Wechat-MiniProgram/blob/main/images/index.jpg)
 
-​		![答题页面]()
+​				每次答题需要完成十道单选题，题目内容与兰州方言，兰州黄河，兰州人的生活有关。答题结束之后会显示用户的成绩。
+
+​		![答题页面](https://github.com/HOLLYwyh/LianYi-Wechat-MiniProgram/blob/main/images/questions.jpg)
 
 ​		小程序名称：“家园文化知多少”
 
