@@ -1,0 +1,89 @@
+/* pages/about/about.wxss */
+/*顶部*/
+.about-background{
+  position: relative;
+}
+/*图片css*/
+.background{
+  position: absolute;
+  width: 100%;
+  height: 600rpx;
+  border-radius: 10px;
+}
+.team1{
+  position: absolute;
+  margin-top: 45px;
+  width: 50%;
+  height: 300rpx;
+}
+.team2{
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 50%;
+  width: 50%;
+  height: 300rpx;
+}
+/*文字css*/
+.title{
+  position:absolute;
+  z-index: 1;
+  color:white;
+  top:20rpx;
+  left: 37%;
+  font-size: 24px;
+}
+.content{
+  position:absolute;
+  z-index: 1;
+  color:black;
+  top:450rpx;
+  left: 5%;
+}
+
+/*团队成员*/
+.team-title{
+  position: absolute;
+  top: 650rpx;
+  left: 4px;
+  font-size: 20px;
+  color: wheat;
+}
+.team-title-bar{
+  position: absolute;
+  border-top-right-radius: 10px;
+  top: 710rpx;
+  width: 200rpx;
+  height: 10rpx;
+  background-color: violet;
+}
+.team-member{
+  position: absolute;
+  top: 750rpx;
+  left: 14px;
+  font-size: 16px;
+  color: black;
+}
+
+/*联系方式*/
+.contact-title{
+  position: absolute;
+  top: 880rpx;
+  left: 4px;
+  font-size: 20px;
+  color: wheat;
+}
+.contact-title-bar{
+  border-top-right-radius: 10px;
+  position: absolute;
+  top: 940rpx;
+  width: 200rpx;
+  height: 10rpx;
+  background-color: violet;
+}
+.contact-email{
+  position: absolute;
+  top: 980rpx;
+  left: 14px;
+  font-size: 16px;
+  color: black;
+}

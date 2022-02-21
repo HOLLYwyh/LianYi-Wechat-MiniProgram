@@ -1,0 +1,12 @@
+<view style="position: relative;width: 750rpx;height: 750px;" class="container">
+  <!--百度百科-->
+  <block>
+    <image bindtap="goToBaike" style="position: absolute;top: 0px;bottom: 0px;left: 0px;height: 200px;width: 100%;" src="/images/dialet1.jpg"></image>
+    <view style="z-index: 12;margin-top: 80px;color:white;">兰州方言·百度百科</view>
+  </block>
+  <!--现代汉语音库-->
+  <block>
+    <image bindtap="goToSoundLibiary" style="position: absolute;top: 200px;bottom: 0px;left: 0px;height: 200px;width: 100%;" src="/images/dialet2.jpg"></image>
+    <view style="z-index: 12;margin-top: 200px;color: white;">【现代汉语方言音库】 - 兰州话音档</view>
+  </block>
+</view>

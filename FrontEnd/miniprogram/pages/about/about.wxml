@@ -1,0 +1,20 @@
+<!--顶部关于我们-->
+<view class="about-background">
+  <image class="background" src="/images/about_background.jpeg"></image>
+  <view class="title">关于我们</view>
+  <image class="team1" src="/images/team1.png"></image>
+  <image class="team2" src="/images/team2.png"></image>
+  <view class="content">涟漪·家园留声机第七组</view>
+</view>
+<!--团队成员-->
+<view>
+  <view class="team-title">小组成员</view>
+  <view class="team-title-bar"></view>
+  <view class="team-member">魏睿轩（组长）、巩珑钰、杨若瑜、吴英豪、朱春宇、杨明月、杨欣悦</view>
+</view>
+<!--联系方式-->
+<view>
+  <view class="contact-title">联系方式</view>
+  <view class="contact-title-bar"></view>
+  <view class="contact-email">845942474@qq.com</view>
+</view>

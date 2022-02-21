@@ -1,0 +1,41 @@
+<view style="position: relative;width: 750rpx;height: 750px;" class="container">
+  <!-- 背景图片 -->
+  <image  style="position: absolute;top: 0px;bottom: 0px;left: 0px;width: 100%;height: 100%;" src="/images/question_background.jpg"></image>
+  <!-- 答题区 -->
+  <view style="z-index: 12;width: 246px;margin-top: 150px;">
+  <block wx:if="{{questionVisible}}">
+    <view style="text-align: center;">当前第{{currentId}}题/共{{totalNumber}}题</view>
+    <progress style="margin-top: 20rpx;text-align: center;" percent="{{percent}}" show-info border-radius="20" stroke-width="20"></progress>
+    <view  style="margin-top: 40rpx;"> {{title}} </view>
+    <radio-group style="margin-top: 20rpx;" bindchange="radioChange">
+      <view style="margin-top: 20rpx;">
+        <radio value="A" checked="{{isSelected}}"/>
+        <text>A. {{answerA}}</text>
+      </view>
+      <view style="margin-top: 20rpx;">
+        <radio value="B" checked="{{isSelected}}"/>
+        <text>B. {{answerB}}</text>
+      </view>
+      <view style="margin-top: 20rpx;">
+        <radio value="C" checked="{{isSelected}}"/>
+        <text>C. {{answerC}}</text>
+      </view>
+      <view style="margin-top: 20rpx;">
+        <radio value="D" checked="{{isSelected}}"/>
+        <text>D. {{answerD}}</text>
+      </view>
+    </radio-group>
+    <button style="margin-top: 20rpx;" type="primary" bindtap="submit">提交</button>
+  </block>
+  <!-- 提示区 -->
+  <block >
+  </block>
+    <!--结果区-->
+    <view style="text-align: center;margin-top: 70rpx;width: 200px;" >
+      <view style="text-align: center;color:blueviolet;font-size: 18px;">答对题数</view>
+      <image style="margin-top: 30px;width: 70px;height: 70px;" src="{{correctUrl}}"></image>
+      <view style="text-align: center;margin-top: 10px;font-style:italic;font-size: 24px;color: red;" wx:if="{{returnVisible}}">{{resultInfo}}</view>
+      <button style="text-align: center;margin-top: 10px;" wx:if="{{returnVisible}}" bindtap="returnToIndex" type="primary">返回首页</button>
+    </view>
+  </view>
+</view>

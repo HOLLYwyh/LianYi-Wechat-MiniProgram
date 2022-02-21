@@ -1,0 +1,27 @@
+<view class="container">
+    <!--轮播图-->
+  <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for-items="{{lunboData}}">
+      <swiper-item>
+        <image src="{{item.imgurl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<!--答题页面-->
+<view style="margin-top: 65rpx;height: 300rpx;width: 100%;background-color: wheat;filter:opacity(0.8);">
+  <view style="text-align: center;margin-top: 50rpx;">答题测试</view>
+  <view>
+    <button bindtap="goToQuestionPage" style="text-align: center;margin-top: 30rpx;height:100rpx;width: 300rpx;" type="primary">
+      开始答题
+    </button>
+  </view>
+</view>
+
+<!--文字描述-->
+<view style="margin-top: 75rpx;">
+  <text style="white-space:pre-wrap">       兰州是黄河唯一穿城而过的省会城市，兰州的自然景观、民风民俗、城市建设、百姓记忆都与黄河息息相关。作为一个兰州人，你对兰州有多少了解呢？一起做几道题试试看吧~
+  </text>
+</view>
+
+
